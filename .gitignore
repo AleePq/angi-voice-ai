@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.vscode/
+# IMPORTANTE: Nunca subir claves reales a GitHub si están en archivos de texto
+# (Aunque tu clave está hardcodeada en el script, te enseñaré a usar variables de entorno)
