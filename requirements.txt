@@ -2,3 +2,6 @@ SpeechRecognition
 pyttsx3
 google-generativeai
 pyaudio
+Flask
+flask-socketio
+eventlet

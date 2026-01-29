@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.A.R.V.I.S. Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="smoke-container">
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1 class="neon-text">J.A.R.V.I.S.</h1>
+            <div class="status-indicator">ONLINE</div>
+        </header>
+
+        <main>
+            <div class="display-area" id="displayArea">
+                <div class="message system">
+                    Sistemas inicializados. Esperando instrucciones.
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="input-group">
+                    <input type="text" id="questionInput" placeholder="Escriba su comando aquí..." autocomplete="off">
+                    <button id="sendBtn" class="gold-btn">ENVIAR</button>
+                </div>
+                <button id="micBtn" class="mic-btn">
+                    <span class="icon">🎙️</span> ACTIVAR AUDIO
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
