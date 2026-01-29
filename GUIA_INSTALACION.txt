@@ -1,0 +1,21 @@
+# GUÍA DE INSTALACIÓN DE PYTHON
+
+El error que ves "Python was not found" significa que tu computadora no tiene instalado el lenguaje necesario para ejecutar a Jarvis.
+
+### PASO 1: DESCARGAR
+Ve a este enlace oficial:
+👉 https://www.python.org/downloads/
+
+Haz clic en el botón amarillo **"Download Python 3.x.x"**.
+
+### PASO 2: INSTALAR (¡MUY IMPORTANTE!)
+Cuando abras el archivo descargado, aparecerá una ventana de instalación.
+
+⚠️ **ANTES DE DARLE A "INSTALL NOW", MIRA ABAJO:** ⚠️
+Debes marcar una casilla pequeña que dice:
+**[ x ] Add python.exe to PATH**
+
+Si no marcas esa casilla, Jarvis no funcionará aunque instales Python.
+
+### PASO 3: PROBAR
+Una vez instalado, vuelve a hacer doble clic en `iniciar_jarvis.bat`.
