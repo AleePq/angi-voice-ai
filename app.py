@@ -59,6 +59,10 @@ def trigger_listen():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+import webbrowser
+
 if __name__ == '__main__':
     print("Iniciando servidor web Jarvis...")
+    # Abrir el navegador automáticamente
+    webbrowser.open('http://127.0.0.1:5000')
     socketio.run(app, debug=True, port=5000, allow_unsafe_werkzeug=True)
